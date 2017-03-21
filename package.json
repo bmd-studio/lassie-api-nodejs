@@ -1,0 +1,22 @@
+{
+  "name": "lassie-api",
+  "version": "1.0.0",
+  "description": "Dependencies for the Lassie API NodeJS implementation.",
+  "main": "LassieApi.js",
+  "dependencies": {
+    "crypto": "0.0.3",
+    "request": "^2.81.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "node examples.js"
+  },
+  "keywords": [
+    "Lassie",
+    "API",
+    "examples",
+    "NodeJS"
+  ],
+  "author": "Pepijn Verburg",
+  "license": "ISC"
+}
