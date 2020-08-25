@@ -42,7 +42,7 @@ const processResponse = (err, res) => {
 
 // Lassie.PersonAuth.getPerson(AuthInstance, { username: 'admin', password: 'adminadmin' }, (err, personInstance) => {
 //   Lassie.Person.Account.accept(personInstance, processResponse)
-//   Lassie.Person.Events.pay(personInstance, processResponse)
+//   Lassie.Person.Event.pay(personInstance, processResponse)
 //   Lassie.Person.getPayments(personInstance, processResponse)
 // })
 
@@ -63,3 +63,11 @@ const processResponse = (err, res) => {
 // Lassie.Person.getPayments(LassieAdmin, processResponse)
 // Lassie.Person.getGroups(LassieAdmin, processResponse)
 // Lassie.Person.Account.accept(LassieAdmin, processResponse)
+// Lassie.Person.Membership.pay(LassieAdmin, {
+//   activity_id: 2,
+//   mollie_redirect_url: 'https://demo.lassie.cloud/',
+// }, processResponse)
+// Lassie.Person.Event.pay(LassieAdmin, {
+//   activity_id: 1,
+//   mollie_redirect_url: 'https://demo.lassie.cloud/',
+// }, processResponse)

@@ -45,7 +45,8 @@ _Requires Person API keys (valid Instance object can be retrieved using `Lassie.
 - `Lassie.Person.Account.transfer(instance, { params }, cb(err, res))`
 - `Lassie.Person.Account.upgrade(instance, { params }, cb(err, res))`
 
-- `Lassie.Person.Events.pay(instance, { params }, cb(err, res))`
+- `Lassie.Person.Event.pay(instance, { params }, cb(err, res))`
+- `Lassie.Person.Membership.pay(instance, { params }, cb(err, res))`
 
 - `Lassie.Person.API.revoke(instance, { params }, cb(err, res))`
 
