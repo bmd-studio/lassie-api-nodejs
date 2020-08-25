@@ -123,6 +123,12 @@ Similarly to the Model API, you can call `Lassie.Person` methods based on the AP
     // => GET api/v2/person/groups
     Lassie.Person.getGroups(JohnDoe, (err, res) => console.log(res.data))
 
+    // => GET api/v2/person/event/pay
+    Lassie.Person.Event.pay(JohnDoe, {
+        activity_id: 1,
+        mollie_redirect_url: 'https://www.your-integration-application.com/',
+    }, (err, res) => console.log(res.data))
+
 ### If you have a username & password
 
 The Person API keys can also be automatically generated if you have a username and password, using the `Lassie.Person.getPerson(...)` method.
